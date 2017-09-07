@@ -1,7 +1,7 @@
 tum_simulator on Indigo
 =============
 
-These packages are used to simulate the flying robot Ardrone in ROS environment using gazebo simulator. Totally they are 4 packages. Their functions are descript as below:
+These packages are used to simulate the flying multiple robot Ardrones in ROS environment using gazebo simulator. Totally they are 4 packages. Their functions are descript as below:
 
 1. cvg_sim_gazebo: contains object models, sensor models, quadrocopter models, flying environment information and individual launch files for each objects and pure environment without any other objects.
 
@@ -45,5 +45,5 @@ How to run a simulation:
 1. Run a simulation by executing a launch file in cvg_sim_gazebo package:
 
     ```
-    roslaunch cvg_sim_gazebo ardrone_testworld.launch
+    roslaunch cvg_sim_gazebo testworld_with_three_ardrone.launch
     ```
