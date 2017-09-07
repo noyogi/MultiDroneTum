@@ -1,4 +1,4 @@
-tum_simulator on Indigo
+Clone of tum_simulator on Indigo to fly multiple drones
 =============
 
 These packages are used to simulate the flying multiple robot Ardrones in ROS environment using gazebo simulator. Totally they are 4 packages. Their functions are descript as below:
@@ -47,3 +47,4 @@ How to run a simulation:
     ```
     roslaunch cvg_sim_gazebo testworld_with_three_ardrone.launch
     ```
+Run with real drones use the autonomy driver. Carefull Takeoff and land topics do not match!!!
